@@ -17,6 +17,15 @@ int readInt() {
     return value;
 }
 
+char readChar() {
+    char value;
+
+    scanf("%c", &value);
+    fflush(stdin);
+
+    return value;
+}
+
 int readFloat() {
     float value;
 
